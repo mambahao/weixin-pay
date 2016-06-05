@@ -1,6 +1,6 @@
 {
   "name": "weixin-pay-enterprise",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "weixin payment with enterprise pay",
   "main": "index.js",
   "directories": {
