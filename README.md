@@ -1,11 +1,9 @@
-# weixin-pay
+# weixin-pay-enterprise
 微信支付 for node.js
-
-[![npm version](https://badge.fury.io/js/weixin-pay.svg)](http://badge.fury.io/js/weixin-pay)
 
 ## Installation
 ```
-npm install weixin-pay
+npm install weixin-pay-enterprise
 ```
 
 ## Usage
@@ -32,6 +30,12 @@ wxpay.createUnifiedOrder({
 }, function(err, result){
 	console.log(result);
 });
+```
+
+企业付款
+```js
+// 参考微信官方文档
+wxpay.payToUser({openid:"xxx",...})
 ```
 
 查询订单
